@@ -21,6 +21,6 @@ const Table = forwardRef(({ modelPath, onClick, ...props }, ref) => {
 export default Table;
 
 // ✅ Preload all tables for smoother switching
-useGLTF.preload("/GLTF/table/table1/table.gltf");
-useGLTF.preload("/GLTF/table/table2/Rolling_B.gltf");
-useGLTF.preload("/GLTF/table/table3/Rolling_B.gltf");
+// useGLTF.preload("/GLTF/table/table1/table.gltf");
+// useGLTF.preload("/GLTF/table/table2/Rolling_B.gltf");
+// useGLTF.preload("/GLTF/table/table3/Rolling_B.gltf");

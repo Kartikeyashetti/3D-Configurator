@@ -5,7 +5,7 @@ import Header from "../src/Blocks/Header/header";
 import Menu from "../src/Blocks/Menu/Menu";
 import Home from "./3D/home/home";
 import Chair from "./3D/chair";
-import Table from "./3D/table"; 
+import Table from "./3D/table";
 export default function App() {
   const [selectedChair, setSelectedChair] = useState("chair1"); // default chair
   const [selectedTable, setSelectedTable] = useState("table1"); // default table
@@ -17,15 +17,15 @@ export default function App() {
   const tableRef = useRef();
 
   const chairModels = {
-    chair1: "/GLTF/Chairs/smoothChairLowpoly.gltf",
-    chair2: "/GLTF/Chairs/Sofaa3.gltf",
-    chair3: "/GLTF/Chairs/SofaResizeLowpoly.gltf",
+    chair1: import.meta.env.BASE_URL + "GLTF/Chairs/smoothChairLowpoly.gltf",
+    chair2: import.meta.env.BASE_URL + "GLTF/Chairs/Sofaa3.gltf",
+    chair3: import.meta.env.BASE_URL + "GLTF/Chairs/SofaResizeLowpoly.gltf",
   };
 
   const tableModels = {
-    table1: "/GLTF/table/table5/table5.gltf",
-    table2: "/GLTF/table/table4/table4.gltf",
-    table3: "/GLTF/table/table1/table.gltf",
+    table1: import.meta.env.BASE_URL + "GLTF/table/table5/table5.gltf",
+    table2: import.meta.env.BASE_URL + "GLTF/table/table4/table4.gltf",
+    table3: import.meta.env.BASE_URL + "GLTF/table/table1/table.gltf",
   };
 
 

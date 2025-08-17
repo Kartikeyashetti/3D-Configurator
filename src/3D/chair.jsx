@@ -35,6 +35,6 @@ const Chair = forwardRef(({ modelPath, onClick, ...props }, ref) => {
 export default Chair;
 
 // ✅ Preload all chairs for smoother switching
-useGLTF.preload("/gltf/chair/chair1.glb");
-useGLTF.preload("/gltf/chair/chair2.glb");
-useGLTF.preload("/gltf/chair/chair3.glb");
+// useGLTF.preload("/gltf/chair/chair1.glb");
+// useGLTF.preload("/gltf/chair/chair2.glb");
+// useGLTF.preload("/gltf/chair/chair3.glb");
