@@ -1,0 +1,84 @@
+.app-header {
+  width: 100%;
+  height: 20vh; /* 20% of viewport height */
+  background: #1e1e1e;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  font-family: sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 20px;
+}
+
+.auth-nav {
+  display: flex;
+  align-items: center;
+}
+
+.auth-links {
+  display: flex;
+  gap: 20px;
+}
+
+.auth-link {
+  color: white;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  transition: background-color 0.3s;
+}
+
+.auth-link:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.username {
+  color: #4CAF50;
+  font-weight: 500;
+}
+
+.admin-link {
+  color: #FF9800;
+  text-decoration: none;
+  padding: 6px 12px;
+  border: 1px solid #FF9800;
+  border-radius: 4px;
+  transition: all 0.3s;
+}
+
+.admin-link:hover {
+  background-color: #FF9800;
+  color: white;
+}
+
+.logout-btn {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+.logout-btn:hover {
+  background-color: #d32f2f;
+}
